@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { Link, useMatch, useNavigate } from "react-location";
 
-import { routes } from "../App";
+import { routes } from "../shared/constant";
 import { useStore } from "../shared/store";
 
 import Button from "@mui/material/Button";
